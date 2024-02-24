@@ -31,7 +31,7 @@ public class CalculatorTests {
     @DisplayName("Adding two negative numbers")
     void additionWithTwoNegativeNumbers(){
         int result = calculator.add(-5,-7);
-        assertEquals(-10, result,"Result does not match");
+        assertEquals(-12, result);
     }
 
     @Test
